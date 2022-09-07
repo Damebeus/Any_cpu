@@ -3,7 +3,7 @@ import video from "../../assets/bgv.mp4";
 import style from "./Welcome.module.css";
 const Welcome = () => {
   return (
-    <div>
+    <div className={style.contenedor}>
       <div className={style.contVideo}>
         <video
           className={style.video}
@@ -14,7 +14,9 @@ const Welcome = () => {
           type='video/mp4'
         />
       </div>
-      ;
+      <div className={style.titulo}>
+        <h1>Titulo</h1>
+      </div>
     </div>
   );
 };
