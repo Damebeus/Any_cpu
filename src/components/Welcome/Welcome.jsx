@@ -14,8 +14,25 @@ const Welcome = () => {
           type='video/mp4'
         />
       </div>
-      <div className={style.titulo}>
-        <h1>Titulo</h1>
+      <div className={style.subcontainer}>
+        <div className={style.slogan}>
+          <h2>committed to your work</h2>
+        </div>
+        <div className={style.titulo}>
+          <h1>SOFTWARE ENGINEER</h1>
+        </div>
+        <div className={style.dinamico}>
+          <ul>
+            <li>security</li>
+            <li>dedication</li>
+            <li>quality</li>
+          </ul>
+        </div>
+        <div className={style.boton}>
+          <button>
+            <span>read more</span>
+          </button>
+        </div>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@
 
   /*   color-scheme: light dark; */
   /*   color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
+  background-color: #242424;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -12,4 +12,9 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+
+@font-face {
+  font-family: kinsans;
+  src: url("../kinsans.ttf");
 }
